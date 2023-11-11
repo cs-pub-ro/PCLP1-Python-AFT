@@ -1,7 +1,7 @@
 ---
 title: Arrays
-parent: Introduction to D
-nav_order: 4
+parent: Introducere în limbajul Python
+nav_order: 2
 ---
 
 <details markdown="block">
