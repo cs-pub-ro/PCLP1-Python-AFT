@@ -6,10 +6,13 @@ nav_order: 2
 
 # Instrucțiuni de control
 
-Instrucțiunile de control, cunoscute și sub numele de instrucțiuni de flux de control, sunt construcții de programare care permit programatorului să controleze ordinea de execuție a instrucțiunilor într-un program. Aceste instrucțiuni determină fluxul programului în funcție de anumite condiții sau bucle. Cele mai comune tipuri de instrucțiuni de control includ:
+Instrucțiunile de control, cunoscute și sub numele de instrucțiuni de flux de control, sunt construcții de programare care permit programatorului să controleze ordinea de execuție a instrucțiunilor într-un program.
+Aceste instrucțiuni determină fluxul programului în funcție de anumite condiții sau bucle.
+Cele mai comune tipuri de instrucțiuni de control includ:
 
 1. **Instrucțiuni condiționale (`if`, `else`, `elif`):**
    - Aceste instrucțiuni permit programului să execute diferite blocuri de cod în funcție de condiții specificate.
+
    ```python
    x = 10
    if x > 0:
@@ -22,6 +25,7 @@ Instrucțiunile de control, cunoscute și sub numele de instrucțiuni de flux de
 
 2. **Instrucțiuni de buclă (`for`, `while`):**
    - Aceste instrucțiuni permit programului să repete un bloc de cod de mai multe ori.
+
    ```python
    # Utilizarea unei bucle for
    for i in range(5):
@@ -38,6 +42,7 @@ Instrucțiunile de control, cunoscute și sub numele de instrucțiuni de flux de
    - `break`: Termină prematur bucla.
    - `continue`: Sare peste restul buclei și trece la următoarea iterație.
    - `pass`: Folosit ca marcator când o instrucțiune este necesară din punct de vedere sintactic, dar nu este necesară nicio acțiune.
+
    ```python
    for i in range(10):
        if i == 5:
@@ -47,6 +52,7 @@ Instrucțiunile de control, cunoscute și sub numele de instrucțiuni de flux de
 
 4. **Gestionarea Excepțiilor (`try`, `except`, `finally`):**
    - Aceste instrucțiuni sunt folosite pentru a gestiona excepțiile (erorile) care pot apărea în timpul execuției unui program.
+
    ```python
    try:
        rezultat = 10 / 0
