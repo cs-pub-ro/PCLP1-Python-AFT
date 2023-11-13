@@ -1,5 +1,5 @@
 ---
-nav-order: 2
+nav_order: 2
 title: Tupluri
 parent: Structuri de date
 ---
@@ -109,13 +109,14 @@ Metoda **index()** acceptă următoarele trei argumente:
 - **item** – Elementul care trebuie căutat în tuplu.
 - **start** – (Opțional) Valoarea de început a indexului de la care începe căutarea.
 - **end** – (Opțional) Valoarea de sfârșit a căutării indexului.
-```python
-tuplu_exemplu = (1, 'doi', 3.0, 'doi', 5)
 
-# Cautarea pozitiei elementului 'doi'
-pozitie = tuplu_exemplu.index('doi')
-print(f"Pozitia elementului 'doi' este: {pozitie}")
-```
+  ```python
+  tuplu_exemplu = (1, 'doi', 3.0, 'doi', 5)
+
+  # Cautarea pozitiei elementului 'doi'
+  pozitie = tuplu_exemplu.index('doi')
+  print(f"Pozitia elementului 'doi' este: {pozitie}")
+  ```
 
 ## Cum adăugăm sau modificăm elemente dintr-un tuplu?
 O metodă de a adăuga sau modifica elemente într-un tuplu este să îl converti temporar într-o listă, să efectuezi modificările și apoi să convertești înapoi într-un tuplu.

@@ -1,5 +1,5 @@
 ---
-nav-order: 3
+nav_order: 3
 title: Seturi
 parent: Structuri de date
 ---
@@ -133,7 +133,7 @@ Este important să țineți cont că seturile nu permit elemente duplicate, deci
     # Output: Element eliminat: 1
     #         {2, 3, 4, 5}
     ```
-    
+
     **Metoda pop()** elimină și returnează un element arbitrar din set. Este important să ții cont că, deoarece seturile nu sunt ordonate, nu poți ști exact care element va fi eliminat.
 
 4. Folosind **metoda clear() pentru a șterge toate elementele**:
@@ -206,6 +206,7 @@ Pentru a copia elementele dintr-un set în altul în Python, poți folosi metoda
     print(set2)
     # Output: {1, 2, 3}
     ```
+
 Atât **copy()** cât și **set()** vor crea o copie a setului inițial. Dacă faci modificări într-un set, aceste modificări nu vor afecta celălalt set, deoarece copiile sunt independente.
 
 ### De ce nu folosim operatorul **=** când vrem să copiem elementele dintr-un set în alt set?

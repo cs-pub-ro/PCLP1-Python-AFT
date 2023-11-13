@@ -1,5 +1,5 @@
 ---
-nav-order: 5
+nav_order: 5
 title: Exerciții
 parent: Structuri de date
 ---

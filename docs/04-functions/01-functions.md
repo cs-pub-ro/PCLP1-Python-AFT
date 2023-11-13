@@ -1,5 +1,5 @@
 ---
-nav-order: 1
+nav_order: 1
 title: Funcții în limbajul Python
 parent: Funcții
 ---
@@ -16,7 +16,7 @@ parent: Funcții
     ```python
     def hello_world():
         print("Hello, world!")
-    ``` 
+    ```
 
 ## Cum creăm o funcție?
 O formă generală a definirii funcțiilor în Python este:
