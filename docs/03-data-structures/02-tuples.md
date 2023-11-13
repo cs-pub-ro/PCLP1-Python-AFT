@@ -83,6 +83,7 @@ print(lungime_tuplu)  # Output: 3
     ```
 
 ## Cum accesăm elementele dintr-un tuplu?
+
 Elementele dintr-un tuplu pot fi accesate utilizând indexarea. Indexul începe de la 0 pentru primul element și continuă în ordine crescătoare. De asemenea, poți utiliza indexare negativă pentru a accesa elementele în ordine inversă, începând cu -1 pentru ultimul element.
 ```python
 tuplu_exemplu = (1, 'doi', 3.0)
@@ -99,6 +100,7 @@ print(al_doilea_element)  # Output: 'doi'
 ultimul_element = tuplu_exemplu[-1]
 print(ultimul_element)  # Output: 3.0
 ```
+
 ## Cum găsim un element într-un tuplu?
 Pentru a căuta un anumit element într-un tuplu în Python, poți utiliza metoda **index()**. Această metodă returnează poziția primului element găsit în tuplu.
 
@@ -201,7 +203,7 @@ Concatenarea a două sau mai multe tupluri în Python poate fi realizată în di
     print(tuplu3)
     # Output (1, 2, 3, 4, 5, 3, 4, 5, 6, 7)
     ```
-    
+
 ## Cum copiem un tuplu?
 Pentru a copia elementele dintr-un tuplu în altul, se poate folosi constructorul **tuple()**:
 ```python

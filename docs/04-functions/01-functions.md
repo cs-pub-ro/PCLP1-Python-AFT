@@ -17,6 +17,7 @@ parent: Funcții
     def hello_world():
         print("Hello, world!")
     ``` 
+
 ## Cum creăm o funcție?
 O formă generală a definirii funcțiilor în Python este:
 ```python
@@ -97,12 +98,14 @@ def functie_neimplementata():
     pass
 ```
 Acesta este util în situații în care ai nevoie să păstrezi o structură de cod validă, dar încă nu ai implementat logica specifică funcției.
+
 ## Cum sunt executate funcțiile în Python?
 În Python, funcțiile permit programatorului să creeze cod scurt și curat, care poate fi reutilizat în întregul program.
 
 Funcțiile ne ajută să organizăm codul. O funcție primește parametri ca intrare, îi procesează și, în final, returnează valori ca rezultat.
 
 Să presupunem că am definit o funcție care efectuează o anumită sarcină. Atunci când apelăm acea funcție dintr-o altă funcție, controlul programului trece la acea funcție, realizează unele calcule și returnează o valoare către funcția apelantă.
+
 ## Vizibilitatea variabilelor
 În Python, vizibilitatea variabilelor în funcție depinde de unde au fost definite acele variabile. Există câteva reguli de bază:
 
@@ -147,6 +150,7 @@ modificare_variabila()
 print(variabila_globala)
 ```
 În acest exemplu, **global variabila_globala** indică faptul că funcția intenționează să lucreze cu variabila globală, nu să creeze o variabilă locală cu același nume. Astfel, după apelul funcției, valoarea variabilei globale este modificată și afișată ca 20.
+
 ## Parametrii unei funcții
 În Python, parametrii unei funcții pot fi de mai multe tipuri, inclusiv parametri poziționali, parametri cu cuvinte cheie (keyword), parametri cu valori implicite (default), și parametri cu lungime variabilă. Iată o prezentare succintă a fiecărui tip:
 
