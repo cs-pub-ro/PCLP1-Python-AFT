@@ -1,7 +1,7 @@
 ---
-nav-order: 1
+nav-order: 4
 title: Funcții
-has-children: true
+has_children: true
 ---
 
 # Funcții

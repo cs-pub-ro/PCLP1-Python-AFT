@@ -1,7 +1,7 @@
 ---
 nav-order: 3
-title: Data Structures
-has-children: true
+title: Structuri de date
+has_children: true
 ---
 
 # Structuri de date

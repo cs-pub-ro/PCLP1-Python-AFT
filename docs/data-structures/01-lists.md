@@ -1,7 +1,7 @@
 ---
 nav-order: 1
 title: Liste
-parent: Data Structures
+parent: Structuri de date
 ---
 
 <details markdown="block">

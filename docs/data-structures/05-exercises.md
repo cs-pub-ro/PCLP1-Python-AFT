@@ -1,7 +1,7 @@
 ---
 nav-order: 5
 title: Exerciții
-parent: Data Structures
+parent: Structuri de date
 ---
 
 # Exerciții

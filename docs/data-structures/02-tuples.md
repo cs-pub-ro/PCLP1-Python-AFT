@@ -1,7 +1,7 @@
 ---
 nav-order: 2
 title: Tupluri
-parent: Data Structures
+parent: Structuri de date
 ---
 
 <details markdown="block">

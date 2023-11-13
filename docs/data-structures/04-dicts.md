@@ -1,7 +1,7 @@
 ---
 nav-order: 4
 title: Dicționare
-parent: Data Structures
+parent: Structuri de date
 ---
 
 <details markdown="block">

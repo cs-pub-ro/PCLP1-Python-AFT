@@ -1,7 +1,7 @@
 ---
 nav-order: 3
 title: Seturi
-parent: Data Structures
+parent: Structuri de date
 ---
 
 <details markdown="block">

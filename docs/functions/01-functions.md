@@ -1,6 +1,6 @@
 ---
-nav-order: 2
-title: Functions
+nav-order: 1
+title: Funcții în limbajul Python
 parent: Funcții
 ---
 
