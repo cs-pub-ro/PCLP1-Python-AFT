@@ -1,7 +1,7 @@
 ---
 nav-order: 2
 title: Exercises
-parent: Exerciții
+parent: Funcții
 ---
 
 # Exerciții
