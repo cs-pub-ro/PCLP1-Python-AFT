@@ -60,6 +60,7 @@ if 3 in set_exemplu:
 if 6 not in set_exemplu:
     print("6 nu este în set")
 ```
+
 ## Cum aflăm numărul de elemente dintr-un set?
 Pentru a afla numărul de elemente dintr-un set în Python, se poate utiliza **funcția len()**. Această funcție returnează lungimea (numărul de elemente) a unei colecții, inclusiv a seturilor.
 ```python
@@ -70,6 +71,7 @@ lungime_set = len(set_exemplu)
 
 print("Numărul de elemente în set este:", lungime_set)
 ```
+
 ## Cum adăugăm elemente într-un set?
 Pentru a adăuga elemente într-un set în Python, se utilizează metoda **add()** pentru adăugarea unui singur element sau metoda **update()** pentru adăugarea mai multor elemente într-un singur pas.
 ```python
@@ -106,7 +108,7 @@ Este important să țineți cont că seturile nu permit elemente duplicate, deci
     # Output: {1, 2, 4, 5}
     ```
 
-Dacă elementul specificat nu există în set, **metoda remove()** va genera o excepție KeyError. Dacă dorești să eviți această excepție, poți folosi **metoda discard()**.
+    Dacă elementul specificat nu există în set, **metoda remove()** va genera o excepție KeyError. Dacă dorești să eviți această excepție, poți folosi **metoda discard()**.
 
 2. Folosind **metoda discard()**:
     ```python
@@ -131,7 +133,8 @@ Dacă elementul specificat nu există în set, **metoda remove()** va genera o e
     # Output: Element eliminat: 1
     #         {2, 3, 4, 5}
     ```
-**Metoda pop()** elimină și returnează un element arbitrar din set. Este important să ții cont că, deoarece seturile nu sunt ordonate, nu poți ști exact care element va fi eliminat.
+    
+    **Metoda pop()** elimină și returnează un element arbitrar din set. Este important să ții cont că, deoarece seturile nu sunt ordonate, nu poți ști exact care element va fi eliminat.
 
 4. Folosind **metoda clear() pentru a șterge toate elementele**:
     ```python
@@ -143,6 +146,7 @@ Dacă elementul specificat nu există în set, **metoda remove()** va genera o e
     print(set_exemplu)
     # Output: set()
     ```
+
 ## Operații pe seturi
 1. **Reuniune (Union)** - Creează un set care conține toate elementele din ambele seturi.
     ```python
