@@ -1,7 +1,7 @@
 ---
 nav-order: 5
 title: Exerciții
-parent: Structuri de date în limbajul Python
+parent: Data Structures
 ---
 
 # Exerciții

@@ -1,7 +1,7 @@
 ---
 nav-order: 3
 title: Seturi
-parent: Structuri de date în limbajul Python
+parent: Data Structures
 ---
 
 <details markdown="block">

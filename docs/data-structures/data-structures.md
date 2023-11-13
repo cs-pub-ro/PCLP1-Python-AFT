@@ -1,6 +1,6 @@
 ---
-nav-order: 1
-title: Structuri de date în limbajul Python
+nav-order: 3
+title: Data Structures
 has-children: true
 ---
 

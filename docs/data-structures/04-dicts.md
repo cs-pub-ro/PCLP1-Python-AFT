@@ -1,7 +1,7 @@
 ---
 nav-order: 4
 title: Dicționare
-parent: Structuri de date în limbajul Python
+parent: Data Structures
 ---
 
 <details markdown="block">

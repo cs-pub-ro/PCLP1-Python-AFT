@@ -1,7 +1,7 @@
 ---
-nav-order: 2
+nav-order: 1
 title: Liste
-parent: Structuri de date în limbajul Python
+parent: Data Structures
 ---
 
 <details markdown="block">

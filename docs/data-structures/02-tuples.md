@@ -1,7 +1,7 @@
 ---
-nav-order: 1
+nav-order: 2
 title: Tupluri
-parent: Structuri de date în limbajul Python
+parent: Data Structures
 ---
 
 <details markdown="block">
