@@ -99,7 +99,6 @@ Accesarea elementelor unui dicționar în Python se face prin specificarea cheii
     print(varsta_student)  # Output: 25
     print(nota_student)  # Output: 9.5
     ```
-
 2. Folosind **metoda get()**:
     ```python
     student = {'nume': 'Ana', 'varsta': 25, 'nota': 9.5}
@@ -277,33 +276,33 @@ Există mai multe moduri de a copia un dicționar în Python. Importante sunt do
 1. **Copiere superficială**:
     - Se poate realiza folosind **metoda copy()** sau operatorul de atribuire **(=)**.
     - Într-o copie superficială, obiectele încorporate (cum ar fi listele sau alte dicționare) nu sunt copiate, ci doar referințele către acestea.
-    ```python
-    # Folosind copy()
-    dicționar1 = {'cheie': 'valoare', 'lista': [1, 2, 3]}
-    copie_superficiala = dicționar1.copy()
+        ```python
+        # Folosind copy()
+        dicționar1 = {'cheie': 'valoare', 'lista': [1, 2, 3]}
+        copie_superficiala = dicționar1.copy()
 
-    # Folosind operatorul de atribuire
-    altă_copie_superficială = dicționar1.copy()
+        # Folosind operatorul de atribuire
+        altă_copie_superficială = dicționar1.copy()
 
-    # Modificarea copiei superficiale nu afectează dicționarul original
-    copie_superficiala['cheie'] = 'noua_valoare'
-    copie_superficiala['lista'][0] = 99
+        # Modificarea copiei superficiale nu afectează dicționarul original
+        copie_superficiala['cheie'] = 'noua_valoare'
+        copie_superficiala['lista'][0] = 99
 
-    print(dicționar1)  # {'cheie': 'valoare', 'lista': [99, 2, 3]}
-    ```
+        print(dicționar1)  # {'cheie': 'valoare', 'lista': [99, 2, 3]}
+        ```
 2. **Copiere profundă**:
     - Se poate realiza folosind modulul copy și funcția deepcopy().
     - Într-o copie profundă, toate obiectele încorporate sunt, de asemenea, copiate în mod recursiv.
-    ```python
-    from copy import deepcopy
+        ```python
+        from copy import deepcopy
 
-    dicționar1 = {'cheie': 'valoare', 'lista': [1, 2, 3]}
-    copie_adâncime = deepcopy(dicționar1)
+        dicționar1 = {'cheie': 'valoare', 'lista': [1, 2, 3]}
+        copie_adâncime = deepcopy(dicționar1)
 
-    # Modificarea copiei adâncime nu afectează dicționarul original
-    copie_adâncime['cheie'] = 'noua_valoare'
-    copie_adâncime['lista'][0] = 99
+        # Modificarea copiei adâncime nu afectează dicționarul original
+        copie_adâncime['cheie'] = 'noua_valoare'
+        copie_adâncime['lista'][0] = 99
 
-    print(dicționar1)  # {'cheie': 'valoare', 'lista': [1, 2, 3]}
-    ```
+        print(dicționar1)  # {'cheie': 'valoare', 'lista': [1, 2, 3]}
+        ```
 Dacă obiectele încorporate în dicționar sunt mutable și doriți să evitați modificările reflectate între original și copie, este recomandat să utilizați **deepcopy()** pentru a obține o copie profundă. Pentru obiecte imutabile, cum ar fi numerele sau șirurile, copierea superficială poate fi suficientă.

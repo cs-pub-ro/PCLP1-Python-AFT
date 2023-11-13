@@ -28,13 +28,13 @@ Principalele caracteristici ale seturilor în Python includ:
 ## Cum putem crea un set?
 Există două modalități principale de a crea un set în Python:
 1. Folosind **acolade {}**; Acesta este modul cel mai concis și comun de a crea un set. Pui elementele separate prin virgulă între acolade. Este important să observi că acest mod de a crea un set poate fi confundat cu dicționarele, dar în cazul seturilor, nu avem perechi cheie: valoare, doar elemente: 
-```python
-set_exemplu = {1, 2, 3, 4, 5}
-``` 
+    ```python
+    set_exemplu = {1, 2, 3, 4, 5}
+    ``` 
 2. Folosind **funcția set()**; Poți crea un set folosind **funcția set()** și oferind o altă colecție (cum ar fi o listă) ca argument. **Funcția set()** va elimina duplicatele și va crea un set cu elementele unice rămase.
-```python
-alt_set = set([3, 4, 5, 6, 7])
-```
+    ```python
+    alt_set = set([3, 4, 5, 6, 7])
+    ```
 
 Ambele metode rezultă în același tip de obiect: un set. În general, folosirea acoladelor **{}** este preferată atunci când creezi un set cu elemente fixe, în timp ce **funcția set()** este utilă atunci când ai deja o altă colecție de elemente din care vrei să creezi un set.
 
@@ -96,111 +96,111 @@ Este important să țineți cont că seturile nu permit elemente duplicate, deci
 ## Cum eliminăm elemente dintr-un set?
 
 1. Folosind **metoda remove()**:
-  ```python
-  set_exemplu = {1, 2, 3, 4, 5}
+    ```python
+    set_exemplu = {1, 2, 3, 4, 5}
 
-  # Elimină elementul 3 din set
-  set_exemplu.remove(3)
+    # Elimină elementul 3 din set
+    set_exemplu.remove(3)
 
-  print(set_exemplu)
-  # Output: {1, 2, 4, 5}
-  ```
+    print(set_exemplu)
+    # Output: {1, 2, 4, 5}
+    ```
 
 Dacă elementul specificat nu există în set, **metoda remove()** va genera o excepție KeyError. Dacă dorești să eviți această excepție, poți folosi **metoda discard()**.
 
 2. Folosind **metoda discard()**:
-  ```python
-  set_exemplu = {1, 2, 3, 4, 5}
+    ```python
+    set_exemplu = {1, 2, 3, 4, 5}
 
-  # Elimină elementul 3 din set (fără excepție dacă nu există)
-  set_exemplu.discard(3)
+    # Elimină elementul 3 din set (fără excepție dacă nu există)
+    set_exemplu.discard(3)
 
-  print(set_exemplu)
-  # Output: {1, 2, 4, 5}
-  ```
+    print(set_exemplu)
+    # Output: {1, 2, 4, 5}
+    ```
 
 3. Folosind **metoda pop()**:
-  ```python
-  set_exemplu = {1, 2, 3, 4, 5}
+    ```python
+    set_exemplu = {1, 2, 3, 4, 5}
 
-  # Elimină și returnează un element arbitrar din set
-  element_elim = set_exemplu.pop()
+    # Elimină și returnează un element arbitrar din set
+    element_elim = set_exemplu.pop()
 
-  print("Element eliminat:", element_elim)
-  print(set_exemplu)
-  # Output: Element eliminat: 1
-  #         {2, 3, 4, 5}
-  ```
+    print("Element eliminat:", element_elim)
+    print(set_exemplu)
+    # Output: Element eliminat: 1
+    #         {2, 3, 4, 5}
+    ```
 **Metoda pop()** elimină și returnează un element arbitrar din set. Este important să ții cont că, deoarece seturile nu sunt ordonate, nu poți ști exact care element va fi eliminat.
 
 4. Folosind **metoda clear() pentru a șterge toate elementele**:
-  ```python
-  set_exemplu = {1, 2, 3, 4, 5}
+    ```python
+    set_exemplu = {1, 2, 3, 4, 5}
 
-  # Șterge toate elementele din set
-  set_exemplu.clear()
+    # Șterge toate elementele din set
+    set_exemplu.clear()
 
-  print(set_exemplu)
-  # Output: set()
-  ```
+    print(set_exemplu)
+    # Output: set()
+    ```
 ## Operații pe seturi
 1. **Reuniune (Union)** - Creează un set care conține toate elementele din ambele seturi.
-  ```python
-  set1 = {1, 2, 3}
-  set2 = {3, 4, 5}
-  reuniune = set1.union(set2)
-  print(reuniune)
-  # Output: {1, 2, 3, 4, 5}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = {3, 4, 5}
+    reuniune = set1.union(set2)
+    print(reuniune)
+    # Output: {1, 2, 3, 4, 5}
+    ```
 2. **Intersecție (Intersection)** - Creează un set care conține doar elementele comune din ambele seturi.
-  ```python
-  set1 = {1, 2, 3}
-  set2 = {3, 4, 5}
-  intersectie = set1.intersection(set2)
-  print(intersectie)
-  # Output: {3}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = {3, 4, 5}
+    intersectie = set1.intersection(set2)
+    print(intersectie)
+    # Output: {3}
+    ```
 3. **Diferență (Difference)** - Creează un set care conține elementele din primul set care nu sunt prezente în al doilea set.
-  ```python
-  set1 = {1, 2, 3}
-  set2 = {3, 4, 5}
-  diferenta = set1.difference(set2)
-  print(diferenta)
-  # Output: {1, 2}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = {3, 4, 5}
+    diferenta = set1.difference(set2)
+    print(diferenta)
+    # Output: {1, 2}
+    ```
 4. **Diferență simetrică (Symmetric Difference)** - Creează un set care conține elementele care sunt prezente într-unul dintre seturi, dar nu în ambele.
-  ```python
-  set1 = {1, 2, 3}
-  set2 = {3, 4, 5}
-  diferenta_simetrica = set1.symmetric_difference(set2)
-  print(diferenta_simetrica)
-  # Output: {1, 2, 4, 5}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = {3, 4, 5}
+    diferenta_simetrica = set1.symmetric_difference(set2)
+    print(diferenta_simetrica)
+    # Output: {1, 2, 4, 5}
+    ```
 5. **Subset** și **Superset** - Verifică dacă un set este submulțime sau supramulțime al altui set.
-  ```python
-  set1 = {1, 2, 3, 4, 5}
-  set2 = {2, 3}
-  is_subset = set2.issubset(set1)
-  is_superset = set1.issuperset(set2)
-  print(is_subset)  # Output: True
-  print(is_superset)  # Output: True
-  ``` 
+    ```python
+    set1 = {1, 2, 3, 4, 5}
+    set2 = {2, 3}
+    is_subset = set2.issubset(set1)
+    is_superset = set1.issuperset(set2)
+    print(is_subset)  # Output: True
+    print(is_superset)  # Output: True
+    ``` 
 ## Cum copiem un set?
 Pentru a copia elementele dintr-un set în altul în Python, poți folosi metoda **copy()** sau poți crea un set nou folosind constructorul **set()**.
 1. Folosind **copy()**:
-  ```python
-  set1 = {1, 2, 3}
-  set2 = set1.copy()
-  print(set2)
-  # Output: {1, 2, 3}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = set1.copy()
+    print(set2)
+    # Output: {1, 2, 3}
+    ```
 2. Folosind **set()**:
-  ```python
-  set1 = {1, 2, 3}
-  set2 = set(set1)
-  print(set2)
-  # Output: {1, 2, 3}
-  ```
+    ```python
+    set1 = {1, 2, 3}
+    set2 = set(set1)
+    print(set2)
+    # Output: {1, 2, 3}
+    ```
 Atât **copy()** cât și **set()** vor crea o copie a setului inițial. Dacă faci modificări într-un set, aceste modificări nu vor afecta celălalt set, deoarece copiile sunt independente.
 
 ### De ce nu folosim operatorul **=** când vrem să copiem elementele dintr-un set în alt set?

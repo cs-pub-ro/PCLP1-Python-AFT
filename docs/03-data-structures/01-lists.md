@@ -125,7 +125,6 @@ Iată o descriere pentru cele două scenarii de modificare posibile:
   lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
   lst[0:2] = [3, 4] # lst va fi [3, 4, "Ion", 4, 7, [2, 3, "Maria"]]
   ```
-
 3. **Modificarea tuturor elementelor**: Pentru a modifica toate elementele folosim un for loop.
   ```python
   lst = [1, 2, 3]
@@ -202,7 +201,6 @@ Există două moduri prin care se poate crea o copie a unei liste:
   print(lst1) # lst1 va fi [1, 2, 3, 4]
   print(lst2) # lst2 va fi [1, 2, 3, 4]
   ```
-
 2. Folosind **metoda copy()**. Aceasta va crea o listă nouă și orice modificări făcute în lista originală nu se vor reflecta în lista nouă. Acest lucru se numește **shallow copy**.
   ```python
   lst1 = [1, 2, 3]

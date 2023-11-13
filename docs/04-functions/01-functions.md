@@ -114,7 +114,8 @@ Să presupunem că am definit o funcție care efectuează o anumită sarcină. A
 
     exemplu()
     ```
-În acest exemplu, **variabila_locala** este vizibilă doar în interiorul funcției **exemplu()**.
+    În acest exemplu, **variabila_locala** este vizibilă doar în interiorul funcției **exemplu()**.
+
 2. **Variabilele globale**: O variabilă definită în afara oricărei funcții sau într-un modul este globală și poate fi accesată din orice loc din program. Cu toate acestea, o funcție nu poate modifica direct o variabilă globală decât dacă este declarată ca globală în interiorul funcției.
     ```python
     variabila_globala = 20
@@ -152,47 +153,47 @@ print(variabila_globala)
 1. **Parametrii poziționali**:
     - Acești parametri sunt specificați în ordinea în care sunt așteptați de către funcție.
     - Valorile lor sunt atribuite în ordine, începând cu primul parametru al funcției.
-    ```python
-    def exemplu_parametri_poziționali(a, b, c):
-        # a, b, și c sunt parametri poziționali
-        print(a, b, c)
+        ```python
+        def exemplu_parametri_poziționali(a, b, c):
+            # a, b, și c sunt parametri poziționali
+            print(a, b, c)
 
-    exemplu_parametri_poziționali(1, 2, 3)  # Va afișa: 1 2 3
-    ``` 
-2. **Parametri cu cuvinte cheie (Keyword)**:
+        exemplu_parametri_poziționali(1, 2, 3)  # Va afișa: 1 2 3
+        ``` 
+    2. **Parametri cu cuvinte cheie (Keyword)**:
     - Valorile sunt asociate explicit cu numele parametrilor.
     - Aceasta oferă flexibilitate în privința ordinii.
-    ```python
-    def exemplu_parametri_keyword(x, y, z):
-        # x, y, și z sunt parametri cu cuvinte cheie
-        print(x, y, z)
+        ```python
+        def exemplu_parametri_keyword(x, y, z):
+            # x, y, și z sunt parametri cu cuvinte cheie
+            print(x, y, z)
 
-    exemplu_parametri_keyword(y=2, z=3, x=1)  # Poziția nu mai contează, va afișa: 1 2 3
-    ```
+        exemplu_parametri_keyword(y=2, z=3, x=1)  # Poziția nu mai contează, va afișa: 1 2 3
+        ```
 3. **Parametri cu valori implicite (Default)**:
     - Acești parametri au valori implicite, astfel încât nu este obligatoriu să li se furnizeze o valoare la apelarea funcției.
-    ```python
-    def exemplu_parametri_default(a, b=2, c=3):
-        # b și c au valori implicite
-        print(a, b, c)
+        ```python
+        def exemplu_parametri_default(a, b=2, c=3):
+            # b și c au valori implicite
+            print(a, b, c)
 
-    exemplu_parametri_default(1)  # Va afișa: 1 2 3
-    ```
+        exemplu_parametri_default(1)  # Va afișa: 1 2 3
+        ```
 4. **Parametri cu lungime variabilă**:
     - Acești parametri permit unei funcții să primească un număr variabil de argumente.
     - Există două tipuri: *args pentru parametrii poziționali și **kwargs pentru parametrii cu cuvinte cheie.
-    ```python
-    def exemplu_lungime_variabila(arg1, *args, **kwargs):
-        print(arg1)
-        print(args)    # Tuplu cu argumente poziționale suplimentare
-        print(kwargs)   # Dicționar cu argumente cu cuvinte cheie suplimentare
+        ```python
+        def exemplu_lungime_variabila(arg1, *args, **kwargs):
+            print(arg1)
+            print(args)    # Tuplu cu argumente poziționale suplimentare
+            print(kwargs)   # Dicționar cu argumente cu cuvinte cheie suplimentare
 
-    exemplu_lungime_variabila(1, 2, 3, a=4, b=5)
-    # Va afișa:
-    # 1
-    # (2, 3)
-    # {'a': 4, 'b': 5}
-    ```
+        exemplu_lungime_variabila(1, 2, 3, a=4, b=5)
+        # Va afișa:
+        # 1
+        # (2, 3)
+        # {'a': 4, 'b': 5}
+        ```
 ## Funcții recursive
 Funcțiile recursive sunt funcții care se apelează pe ele însele în cadrul propriului lor corp. Această tehnică este adesea folosită pentru a rezolva probleme care pot fi împărțite în subprobleme mai mici. În Python, o funcție poate apela orice altă funcție, inclusiv pe ea însăși.
 
