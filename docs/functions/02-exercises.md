@@ -1,6 +1,6 @@
 ---
 nav-order: 2
-title: Funcții în limbajul Python
+title: Exercises
 parent: Exerciții
 ---
 
