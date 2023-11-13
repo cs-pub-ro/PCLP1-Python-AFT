@@ -243,8 +243,10 @@ Este important să alegeți metoda potrivită în funcție de ce doriți să rea
     if 25 in student.values():
         print("Valoarea 25 există în dicționar.")
     ``` 
+
 ## Cum unim două dicționare?
 Unirea a două dicționare în Python se poate realiza folosind **metoda update()**. Această metodă adaugă perechile cheie-valoare dintr-un alt dicționar în dicționarul curent. Dacă există chei comune, valorile vor fi actualizate cu cele din dicționarul furnizat.
+
 ```python
 dicționar1 = {'nume': 'Ana', 'varsta': 25}
 dicționar2 = {'nota': 9.5, 'oră': '12:00'}
