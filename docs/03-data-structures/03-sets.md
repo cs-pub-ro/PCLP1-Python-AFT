@@ -185,6 +185,7 @@ Dacă elementul specificat nu există în set, **metoda remove()** va genera o e
     print(is_subset)  # Output: True
     print(is_superset)  # Output: True
     ``` 
+    
 ## Cum copiem un set?
 Pentru a copia elementele dintr-un set în altul în Python, poți folosi metoda **copy()** sau poți crea un set nou folosind constructorul **set()**.
 1. Folosind **copy()**:

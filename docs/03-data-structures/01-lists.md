@@ -116,52 +116,52 @@ O listă în Python este o secvență mutabilă de obiecte iterabile, astfel per
 Iată o descriere pentru cele două scenarii de modificare posibile:
 
 1. **Modificarea unui singur element**: Pentru a modifica un element specific dintr-o listă, se utilizează indexul acestuia împreună cu operatorul de atribuire.
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst[0] = -1 # lst va fi [-1, 2, "Ion", 4, 7, [2, 3, "Maria"], 2, 3]
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst[0] = -1 # lst va fi [-1, 2, "Ion", 4, 7, [2, 3, "Maria"], 2, 3]
+    ```
 2. **Modificarea unui interval de elemente**: Pentru a modifica un interval de elemente dintr-o listă, se poate folosi slicing-ul și operatorul de atribuire. 
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst[0:2] = [3, 4] # lst va fi [3, 4, "Ion", 4, 7, [2, 3, "Maria"]]
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst[0:2] = [3, 4] # lst va fi [3, 4, "Ion", 4, 7, [2, 3, "Maria"]]
+    ```
 3. **Modificarea tuturor elementelor**: Pentru a modifica toate elementele folosim un for loop.
-  ```python
-  lst = [1, 2, 3]
-  for i in range(0, len(lst)):
-      square = lst[i] * lst[i]
-      lst[i] = square
-  ```
+    ```python
+    lst = [1, 2, 3]
+    for i in range(0, len(lst)):
+        square = lst[i] * lst[i]
+        lst[i] = square
+    ```
 
 ### Ștergerea elementelor dintr-o listă
 
 Elementele unei liste pot fi eliminate din listă folosind următoarele metode:
 
 1. **remove(element)**: Pentru a elimina prima apariție a elementului din listă.
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst.remove(2) # lst va fi [2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst.remove(9) # acest apel va da eroare pentru că 9 nu se află în listă
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst.remove(2) # lst va fi [2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst.remove(9) # acest apel va da eroare pentru că 9 nu se află în listă
+    ```
 2. **pop(index)**: Elimină și returnează elementul de la indexul dat din listă.
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst.pop(1) # lst va fi [1, "Ion", 4, 7, [2, 3, "Maria"]]
-  x = lst.pop(1) # x va fi "Ion", iar lst va fi lst = [1, 4, 7, [2, 3, "Maria"]]
-  lst.pop() # lst va fi [1, 4, 7]
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst.pop(1) # lst va fi [1, "Ion", 4, 7, [2, 3, "Maria"]]
+    x = lst.pop(1) # x va fi "Ion", iar lst va fi lst = [1, 4, 7, [2, 3, "Maria"]]
+    lst.pop() # lst va fi [1, 4, 7]
+    ```
 3. **clear()**: Pentru a elimina toate elementele din listă. Rezultatul va fi o listă goală.
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  lst.clear() # lst va fi [] - lista vidă
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    lst.clear() # lst va fi [] - lista vidă
+    ```
 4. **del nume_listă**: Șterge întreaga listă.
-  ```python
-  lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
-  del lst[1] # lst va fi [1, "Ion", 4, 7, [2, 3, "Maria]]
-  del lst # apelul va șterge lst și tot ce conține aceasta
-  print(lst) # va da eroare pentru că lst nu mai există
-  ```
+    ```python
+    lst = [1, 2, "Ion", 4, 7, [2, 3, "Maria"]]
+    del lst[1] # lst va fi [1, "Ion", 4, 7, [2, 3, "Maria]]
+    del lst # apelul va șterge lst și tot ce conține aceasta
+    print(lst) # va da eroare pentru că lst nu mai există
+    ```
 
 ### Găsirea unui element în listă
 
@@ -177,38 +177,38 @@ x = lst.index(4) # x va fi 3
 Concatenarea a două liste înseamnă îmbinarea lor într-o singură listă. Există două moduri de a face acest lucru:
 
 1. Folosind operatorul **+**. 
-  ```python
-  lst1 = [1, 2, 3]
-  lst2 = [4, 5, 6]
-  lst_rez = lst1 + lst2 # lst_rez va fi [1, 2, 3, 4, 5, 6]
-  ```
+    ```python
+    lst1 = [1, 2, 3]
+    lst2 = [4, 5, 6]
+    lst_rez = lst1 + lst2 # lst_rez va fi [1, 2, 3, 4, 5, 6]
+    ```
 2. Folosind metoda **extend()**. Metoda **extend()** adaugă elementele listei noi la sfârșitul listei la care este aplicată.
-  ```python
-  lst1 = [1, 2, 3]
-  lst2 = [4, 5, 6]
-  lst1.extend(lst2) # lst1 va fi [1, 2, 3, 4, 5, 6]
-  ```
+    ```python
+    lst1 = [1, 2, 3]
+    lst2 = [4, 5, 6]
+    lst1.extend(lst2) # lst1 va fi [1, 2, 3, 4, 5, 6]
+    ```
 
 ### Copierea unei liste
 
 Există două moduri prin care se poate crea o copie a unei liste:
 
 1. Folosind **operatorul de atribuire (=)**: Noua listă va fi un **deep copy**. Modificările pe care le facem în lista originală se vor reflecta și în noua listă.
-  ```python
-  lst1 = [1, 2, 3]
-  lst2 = lst1
-  lst1.append(4)
-  print(lst1) # lst1 va fi [1, 2, 3, 4]
-  print(lst2) # lst2 va fi [1, 2, 3, 4]
-  ```
+    ```python
+    lst1 = [1, 2, 3]
+    lst2 = lst1
+    lst1.append(4)
+    print(lst1) # lst1 va fi [1, 2, 3, 4]
+    print(lst2) # lst2 va fi [1, 2, 3, 4]
+    ```
 2. Folosind **metoda copy()**. Aceasta va crea o listă nouă și orice modificări făcute în lista originală nu se vor reflecta în lista nouă. Acest lucru se numește **shallow copy**.
-  ```python
-  lst1 = [1, 2, 3]
-  lst2 = lst1.copy()
-  lst1.append(4)
-  print(lst1) # lst1 va fi [1, 2, 3, 4]
-  print(lst2) # lst2 va fi [1, 2, 3]
-  ```
+    ```python
+    lst1 = [1, 2, 3]
+    lst2 = lst1.copy()
+    lst1.append(4)
+    print(lst1) # lst1 va fi [1, 2, 3, 4]
+    print(lst2) # lst2 va fi [1, 2, 3]
+    ```
 
 ### Sortarea unei liste
 

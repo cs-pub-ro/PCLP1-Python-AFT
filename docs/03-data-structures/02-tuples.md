@@ -49,6 +49,7 @@ lungime_tuplu = len(tuplu_exemplu)
 
 print(lungime_tuplu)  # Output: 3
 ```
+
 ## Cum parcurgem un tuplu?
 1. Folosind **bucla for direct**:
     ```python
@@ -80,6 +81,7 @@ print(lungime_tuplu)  # Output: 3
     print(element2)
     print(element3)
     ```
+
 ## Cum accesăm elementele dintr-un tuplu?
 Elementele dintr-un tuplu pot fi accesate utilizând indexarea. Indexul începe de la 0 pentru primul element și continuă în ordine crescătoare. De asemenea, poți utiliza indexare negativă pentru a accesa elementele în ordine inversă, începând cu -1 pentru ultimul element.
 ```python
@@ -112,6 +114,7 @@ tuplu_exemplu = (1, 'doi', 3.0, 'doi', 5)
 pozitie = tuplu_exemplu.index('doi')
 print(f"Pozitia elementului 'doi' este: {pozitie}")
 ```
+
 ## Cum adăugăm sau modificăm elemente dintr-un tuplu?
 O metodă de a adăuga sau modifica elemente într-un tuplu este să îl converti temporar într-o listă, să efectuezi modificările și apoi să convertești înapoi într-un tuplu.
  
@@ -145,6 +148,7 @@ O metodă de a adăuga sau modifica elemente într-un tuplu este să îl convert
     print(tuplu_nou)
     # Output: (10, 2, 3)
     ```
+
 ## Cum ștergem elemente dintr-un tuplu?
 Tuplurile fiind structuri de date imutabile în Python, nu poți șterge direct un element dintr-un tuplu existent. Poți utiliza același principiu de a converti tuplul într-o listă, să ștergi elementul și apoi să convertești lista înapoi într-un tuplu.
 ```python
@@ -161,6 +165,7 @@ tuplu_nou = tuple(lista_temporara)
 print(tuplu_nou)
 # Output: (1, 2, 4, 5)
 ```
+
 ## Cum concatenăm două tupluri?
 Concatenarea a două sau mai multe tupluri în Python poate fi realizată în diferite moduri. Un lucru de notat este că tuplurile permit duplicarea, deci dacă două tupluri au același element, acesta va fi repetat de două ori în tuplul rezultat.
 
@@ -196,6 +201,7 @@ Concatenarea a două sau mai multe tupluri în Python poate fi realizată în di
     print(tuplu3)
     # Output (1, 2, 3, 4, 5, 3, 4, 5, 6, 7)
     ```
+    
 ## Cum copiem un tuplu?
 Pentru a copia elementele dintr-un tuplu în altul, se poate folosi constructorul **tuple()**:
 ```python

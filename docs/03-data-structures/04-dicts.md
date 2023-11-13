@@ -226,6 +226,7 @@ După ce ați adăugat elementele dorite, dicționarul va arăta în mod corespu
     del student
     ```
 Este important să alegeți metoda potrivită în funcție de ce doriți să realizați. De exemplu, **del** și **pop** sunt mai potrivite atunci când știți cheia pe care doriți să o ștergeți, în timp ce **popitem** este mai potrivită dacă doriți să ștergeți ultima pereche cheie-valoare adăugată. **clear** este folosit pentru ștergerea tuturor elementelor din dicționar, iar **del** pentru ștergerea întregului dicționar.
+
 ## Cum verificăm existența unei chei / unei valori într-un dicționar?
 1. Verificarea **existenței cheii cu in**:
     ```python

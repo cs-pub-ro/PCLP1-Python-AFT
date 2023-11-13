@@ -160,7 +160,7 @@ print(variabila_globala)
 
         exemplu_parametri_poziționali(1, 2, 3)  # Va afișa: 1 2 3
         ``` 
-    2. **Parametri cu cuvinte cheie (Keyword)**:
+2. **Parametri cu cuvinte cheie (Keyword)**:
     - Valorile sunt asociate explicit cu numele parametrilor.
     - Aceasta oferă flexibilitate în privința ordinii.
         ```python
@@ -194,7 +194,9 @@ print(variabila_globala)
         # (2, 3)
         # {'a': 4, 'b': 5}
         ```
+        
 ## Funcții recursive
+
 Funcțiile recursive sunt funcții care se apelează pe ele însele în cadrul propriului lor corp. Această tehnică este adesea folosită pentru a rezolva probleme care pot fi împărțite în subprobleme mai mici. În Python, o funcție poate apela orice altă funcție, inclusiv pe ea însăși.
 
 Un exemplu clasic de funcție recursivă este calculul factorialului. Iată un exemplu:

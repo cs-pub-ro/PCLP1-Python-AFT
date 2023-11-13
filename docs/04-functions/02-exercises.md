@@ -14,7 +14,7 @@ lst = [8, 2, 3, -1, 7]
 ```
 
 Rezultat așteptat:
-```css
+```python
 Rezultat Așteptat: -336
 ```
 
@@ -26,7 +26,7 @@ s = 'The quick Brow Fox'
 ```
 
 Rezultat așteptat:
-```css
+```python
 Numărul de caractere majuscule: 3
 Numărul de caractere minuscule: 12
 ```

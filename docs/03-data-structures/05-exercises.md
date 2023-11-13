@@ -17,7 +17,7 @@ l2 = [4, 8, 12, 16, 20, 24, 28]
 ```
 
 Rezultat așteptat:
-```css
+```python
 Elementele de pe pozițiile cu index impar din prima listă:
 [6, 12, 18]
 
@@ -35,7 +35,7 @@ Date:
 sample_list = [11, 45, 8, 23, 14, 12, 78, 45, 89]
 ```
 Rezultat așteptat:
-```css
+```python
 Bucată  1 [11, 45, 8]
 După inversare [8, 45, 11]
 
@@ -54,7 +54,7 @@ first_list = [2, 3, 4, 5, 6, 7, 8]
 second_list = [4, 9, 16, 25, 36, 49, 64]
 ```
 Rezultat așteptat:
-```css
+```python
 Rezultatul este {(6, 36), (8, 64), (4, 16), (5, 25), (3, 9), (7, 49), (2, 4)}
 ```
 
@@ -67,7 +67,7 @@ sample_dict = {'Jhon': 47, 'Emma': 69, 'Kelly': 76, 'Jason': 97}
 ```
 
 Rezultat așteptat:
-```css
+```python
 După eliminarea elementelor nedorite din listă [47, 69, 76, 97]
 ```
 
@@ -78,7 +78,7 @@ Date:
 speed = {'ian': 47, 'feb': 52, 'martie': 47, 'aprilie': 44, 'mai': 52, 'iunie': 53, 'iulie': 54, 'aug': 44, 'sept': 54}
 ```
 Rezultat așteptat:
-```css
+```python
 [47, 52, 44, 53, 54]
 ```
 
@@ -89,7 +89,7 @@ Date:
 sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
 ```
 Rezultat așteptat:
-```css
+```python
 elemente unice [87, 45, 41, 65, 99]
 tuplu (87, 45, 41, 65, 99)
 minim: 41
