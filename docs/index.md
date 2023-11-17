@@ -16,7 +16,7 @@ Bine ați venit la cursul **PCLP1 - Python**!
 1. [Clase](./ranges/ranges.md)
 1. [Lucrul cu fișiere](./c_cpp_interop/intro.md)
 1. [Module Python](./structs-classes/asc.md)
-1. [Instalarea bibliotecilor și utilizarea mediilor virtuale](./advanced-meta/advanced-meta.md)
+1. [Instalarea bibliotecilor și utilizarea mediilor virtuale](./08-libs-venv/intro.md)
 1. [Tratarea erorilor și excepțiilor](./advanced-meta/advanced-meta.md)
 1. [Utilizarea serviciilor folosind REST API](./advanced-meta/advanced-meta.md)
 1. [](./advanced-meta/advanced-meta.md)
