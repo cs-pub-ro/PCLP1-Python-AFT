@@ -1,6 +1,6 @@
 ---
 nav_order: 3
-tile: Module Implicite în Python
+title: Module Implicite în Python
 parent: Module în Python
 ---
 
