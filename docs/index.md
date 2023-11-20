@@ -14,7 +14,7 @@ Bine ați venit la cursul **PCLP1 - Python**!
 1. [Structuri de date: liste, dicționare, tupluri](./03-data-structures/intro.md)
 1. [Funcții](./04-functions/intro.md)
 1. [Clase](./ranges/ranges.md)
-1. [Lucrul cu fișiere](./c_cpp_interop/intro.md)
+1. [Lucrul cu fișiere](./06-files/intro.md)
 1. [Module Python](./structs-classes/asc.md)
 1. [Instalarea bibliotecilor și utilizarea mediilor virtuale](./advanced-meta/advanced-meta.md)
 1. [Tratarea erorilor și excepțiilor](./advanced-meta/advanced-meta.md)
