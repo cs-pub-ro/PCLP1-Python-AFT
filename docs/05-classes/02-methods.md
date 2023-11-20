@@ -2,6 +2,7 @@
 title: Metode
 parent: Clase
 nav_order: 2
+---
 
 <details markdown="block">
   <summary>
