@@ -1,7 +1,7 @@
 ---
 nav_order: 1
 title: Crearea și Importarea unui Modul în Python
-parent: Module în PyhtonC
+parent: Module în Python
 ---
 
 <details markdown="block">

@@ -1,7 +1,7 @@
 ---
 nav_order: 3
 tile: Module Implicite în Python
-parent: Module în Pyhton
+parent: Module în Python
 ---
 
 <details markdown="block">

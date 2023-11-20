@@ -11,16 +11,19 @@ parent: Instalarea bibliotecilor și utilizarea mediilor virtuale
   {: .text-delta }
 1. TOC
 {:toc}
+</details>
+
+# Mediul de Dezvoltare Virtual (Virtual Environment)
 
 Mediul de dezvoltare virtual (virtual environment) în Python este o metodă care rezolvă problema gestionării dependențelor și a versiunilor diferite ale pachetelor în cadrul proiectelor Python. Acesta oferă un spațiu izolat și independent în care puteți instala biblioteci și pachete Python fără a afecta instalările globale sau alte proiecte.
 
-### Când este necesar un mediu de dezvoltare virtual?
+## Când este necesar un mediu de dezvoltare virtual?
 
 1. **Proiecte cu dependențe diferite:** Când lucrați la mai multe proiecte care necesită versiuni diferite ale acelorași pachete sau chiar pachete incompatibile între ele, mediile virtuale vă permit să izolați și să gestionați aceste dependențe specifice pentru fiecare proiect în parte.
 
 2. **Evitarea conflictelor între biblioteci:** Unele proiecte pot necesita versiuni specifice ale bibliotecilor sau chiar biblioteci care nu sunt compatibile între ele. Mediile virtuale vă permit să evitați conflictele între aceste dependențe, oferind un spațiu izolat pentru fiecare proiect.
 
-### Avantajele utilizării mediului de dezvoltare virtual:
+## Avantajele utilizării mediului de dezvoltare virtual:
 
 1. **Izolare și independență:** Fiecare mediu virtual are propria sa instanță Python și pachete instalate, ceea ce înseamnă că modificările efectuate într-un mediu nu afectează alte medii sau instalările globale.
 
@@ -28,7 +31,7 @@ Mediul de dezvoltare virtual (virtual environment) în Python este o metodă car
 
 3. **Experimentare și testare:** Mediile virtuale permit să testați diferite configurații și pachete fără a afecta proiectele principale sau mediul de lucru global.
 
-### Exemplu de utilizare a unui mediu de dezvoltare virtual:
+## Exemplu de utilizare a unui mediu de dezvoltare virtual:
 
 1. **Crearea unui mediu virtual:**
 

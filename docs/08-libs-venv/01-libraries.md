@@ -13,6 +13,8 @@ parent: Instalarea bibliotecilor și utilizarea mediilor virtuale
 {:toc}
 </details>
 
+# Biblioteci in Python
+
 Bibliotecile în Python sunt colecții de cod predefinite sau create de alți dezvoltatori, care extind funcționalitățile limbajului de bază. Ele sunt esențiale pentru a rezolva o varietate de probleme și pentru a construi aplicații mai complexe. Bibliotecile sunt utile pentru că oferă funcții, clase și instrumente specializate care permit dezvoltatorilor să evite rescrierea codului și să accelereze procesul de dezvoltare.
 
 Iată de ce sunt bibliotecile atât de importante și de ce uneori ai nevoie de mai mult decât ce oferă biblioteca standard:
