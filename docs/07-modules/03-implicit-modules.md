@@ -48,3 +48,31 @@ Afișați apoi lista.
 
 1. Tot cu ajutorul [documentației](https://docs.python.org/3/library/random.html), generați o parolă formată dintr-un număr aleator de litere (între 10 și 20) mari sau mici.
 Vă puteți folosi și de modulul impliciti [`string`](https://docs.python.org/3/library/string.html).
+
+1. Scrieți o funcție numită `diferenta_zilelor` care primește două argumente de tipul `datetime` și returnează diferența în zile dintre cele două date.
+
+    Exemplu de utilizare:
+    ```python
+    import datetime
+
+    data1 = datetime.datetime(2023, 11, 15)
+    data2 = datetime.datetime(2023, 11, 21)
+
+    print(diferenta_zilelor(data1, data2))  # Ar trebui să afișeze 6
+    ```
+
+1. Scrieți o funcție numită `frecventa_elementelor` care primește o listă și returnează un dicționar în care cheile sunt elementele unice din listă și valorile reprezintă frecvența fiecărui element în listă.
+
+    Exemplu de utilizare:
+    ```python
+    print(frecventa_elementelor([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]))  
+    # Ar trebui să afișeze {1: 1, 2: 2, 3: 3, 4: 4}
+    ```
+
+1. Folosind modulul `itertools`, scrieți o funcție numită `permutari` care primește o listă și returnează o listă de tuple reprezentând toate permutările posibile ale elementelor din listă.
+
+    Exemplu de utilizare:
+    ```python
+    print(permutari(['a', 'b', 'c']))
+    # Ar trebui să afișeze [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
+    ```
