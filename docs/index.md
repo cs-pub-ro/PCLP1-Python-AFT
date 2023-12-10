@@ -19,6 +19,6 @@ Bine ați venit la cursul **PCLP1 - Python**!
 1. [Instalarea bibliotecilor și utilizarea mediilor virtuale](./08-libs-venv/intro.md)
 1. [Tratarea erorilor și excepțiilor](./09-exceptions/intro.md)
 1. [Utilizarea serviciilor folosind REST API](./advanced-meta/advanced-meta.md)
-1. [](./advanced-meta/advanced-meta.md)
+1. [Recapitulare 1](./11-recap-1/recap.md)
 1. [](./advanced-meta/advanced-meta.md)
 1. [](./advanced-meta/advanced-meta.md)
