@@ -156,6 +156,8 @@ decrypted_message = decrypt(encrypted_message, key, iv)
 print("Mesaj decriptat:", decrypted_message)
 ```
 
+**Atenție!** Este nevoie să instalați pachetul `pycryptodome` folosind `pip install pycryptodome`.
+
 În acest cod, se definesc două funcții principale: `encrypt` și `decrypt`. Funcția `encrypt` primește un mesaj și o cheie, creează un obiect AES, criptează mesajul folosind cheia și un IV (Vector de Inițializare), și returnează mesajul criptat și IV-ul. Funcția `decrypt` primește mesajul criptat, cheia și IV-ul și decriptează mesajul înapoi la forma sa originală.
 
 Este important să menționăm că cheia trebuie păstrată în siguranță, deoarece accesul la cheie permite decriptarea datelor criptate. De asemenea, IV-ul trebuie transmis împreună cu mesajul criptat pentru a permite decriptarea corectă a datelor.
