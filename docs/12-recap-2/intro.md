@@ -22,11 +22,13 @@ Dată fiind o serie de numere întregi sortate în ordine ne-descrescătoare, ex
 Exemplu 1:
 
 Intrare: arr = [1,2,2,6,6,6,6,7,10]
+
 Ieșire: 6
 
 Exemplu 2:
 
 Intrare: arr = [1,1]
+
 Ieșire: 1
 
 Restricții:
@@ -45,25 +47,34 @@ Returnați numărul de partide jucate în turneu până când este decis un câ�
 Exemplu 1:
 
 Intrare: n = 7
+
 Ieșire: 6
 
-Explicație: Detalii despre turneu:
+Explicație:
+
+```text
+Detalii despre turneu:
 - Runda 1: Echipe = 7, Partide = 3, și 4 echipe avansează.
 - Runda 2: Echipe = 4, Partide = 2, și 2 echipe avansează.
 - Runda 3: Echipe = 2, Partide = 1, și o echipă este declarată câștigătoare.
 Numărul total de partide = 3 + 2 + 1 = 6.
-
+```
 Exemplu 2:
 
 Intrare: n = 14
+
 Ieșire: 13
 
-Explicație: Detalii despre turneu:
+Explicație:
+
+```text
+Detalii despre turneu:
 - Runda 1: Echipe = 14, Partide = 7, și 7 echipe avansează.
 - Runda 2: Echipe = 7, Partide = 3, și 4 echipe avansează.
 - Runda 3: Echipe = 4, Partide = 2, și 2 echipe avansează.
 - Runda 4: Echipe = 2, Partide = 1, și o echipă este declarată câștigătoare.
 Numărul total de partide = 7 + 3 + 2 + 1 = 13.
+```
 
 ## Cel mai mare numar impar
 
@@ -74,19 +85,25 @@ Un subșir este o secvență contiguă de caractere într-un șir.
 Exemplu 1:
 
 Intrare: num = "52"
+
 Ieșire: "5"
+
 Explicație: Singurele subșiruri nevide sunt "5", "2" și "52". "5" este singurul număr impar.
 
 Exemplu 2:
 
 Intrare: num = "4206"
+
 Ieșire: ""
+
 Explicație: Nu există numere impare în "4206".
 
 Exemplu 3:
 
 Intrare: num = "35427"
+
 Ieșire: "35427"
+
 Explicație: "35427" este deja un număr impar.
 
 Restricții:
@@ -101,10 +118,12 @@ Un numar este palindrom daca indiferent daca il citim de la stanga la dreapta sa
 
 Exemplu:
 
+```text
 121 - palindrom
 123 - nepalindrom
 12321 - palindrom
 12321 - nepalindrom
+```
 
 ## Radacinile functiei de gradul al doilea
 
@@ -119,19 +138,25 @@ Incrementează numărul mare cu unu și returnează rezultatul sub formă de și
 Exemplu 1:
 
 Intrare: digits = [1,2,3]
+
 Ieșire: [1,2,4]
+
 Explicație: Șirul reprezintă întregul 123. Incrementarea cu unu dă 123 + 1 = 124. Prin urmare, rezultatul ar trebui să fie [1,2,4].
 
 Exemplu 2:
 
 Intrare: digits = [4,3,2,1]
+
 Ieșire: [4,3,2,2]
+
 Explicație: Șirul reprezintă întregul 4321. Incrementarea cu unu dă 4321 + 1 = 4322. Prin urmare, rezultatul ar trebui să fie [4,3,2,2].
 
 Exemplu 3:
 
 Intrare: digits = [9]
+
 Ieșire: [1,0]
+
 Explicație: Șirul reprezintă întregul 9. Incrementarea cu unu dă 9 + 1 = 10. Prin urmare, rezultatul ar trebui să fie [1,0].
 
 Restricții:
@@ -148,20 +173,33 @@ De fiecare dată puteți urca fie 1, fie 2 trepte. În câte moduri distincte pu
 
 Exemplu 1:
 
+
 Intrare: n = 2
+
 Ieșire: 2
-Explicație: Există două moduri de a urca pe scară.
+
+Explicație:
+
+```text
+Există două moduri de a urca pe scară.
 1. 1 treaptă + 1 treaptă
 2. 2 trepte
+```
 
 Exemplu 2:
 
 Intrare: n = 3
+
 Ieșire: 3
-Explicație: Există trei moduri de a urca pe scară.
+
+Explicație: 
+
+```text
+Există trei moduri de a urca pe scară.
 1. 1 treaptă + 1 treaptă + 1 treaptă
 2. 1 treaptă + 2 trepte
 3. 2 trepte + 1 treaptă
+```
 
 ## Scoaterea elementelor care apar de mai multe de 2 ori
 
@@ -176,10 +214,19 @@ Nu alocati spațiu suplimentar pentru un alt șir. Trebuie să faceți acest luc
 Exemplu 1:
 
 Intrare: nums = [1,1,1,2,2,3]
+
 Ieșire: 5, nums = [1,1,2,2,3,.]
-Explicație: Funcția ta ar trebui să returneze k = 5, cu primele cinci elemente ale lui nums fiind 1, 1, 2, 2 și 3, respectiv. Nu contează ce lăsați dincolo de k-ul returnat (de aceea sunt linii de jos).
+
+Explicație:
+
+Funcția ta ar trebui să returneze k = 5, cu primele cinci elemente ale lui nums fiind 1, 1, 2, 2 și 3, respectiv. Nu contează ce lăsați dincolo de k-ul returnat (de aceea sunt linii de jos).
+
 Exemplu 2:
 
 Intrare: nums = [0,0,1,1,1,1,2,3,3]
+
 Ieșire: 7, nums = [0,0,1,1,2,3,3,.,.]
-Explicație: Funcția ta ar trebui să returneze k = 7, cu primele șapte elemente ale lui nums fiind 0, 0, 1, 1, 2, 3 și 3, respectiv. Nu contează ce lăsați dincolo de k-ul returnat (de aceea sunt puncte in loc de valori).
+
+Explicație:
+
+Funcția ta ar trebui să returneze k = 7, cu primele șapte elemente ale lui nums fiind 0, 0, 1, 1, 2, 3 și 3, respectiv. Nu contează ce lăsați dincolo de k-ul returnat (de aceea sunt puncte in loc de valori).
