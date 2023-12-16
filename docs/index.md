@@ -21,5 +21,5 @@ Bine ați venit la cursul **PCLP1 - Python**!
 1. [Criptare și semnarea datelor](./10-cryptography/intro.md)
 1. [Recapitulare 1](./11-recap-1/recap.md)
 1. [Recapitulare 2](./12-recap-2/intro.md)
-1. [](./advanced-meta/advanced-meta.md)
+1. [Recapitulare 3](./13-recap-3/00-intro.md)
 1. [](./advanced-meta/advanced-meta.md)
