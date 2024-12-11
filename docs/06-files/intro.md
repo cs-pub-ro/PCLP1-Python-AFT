@@ -1,5 +1,5 @@
 ---
-nav_order: 1
+nav_order: 6
 title: Lucrul cu Fișiere în Python
 has_children: false
 ---
